@@ -9,19 +9,19 @@ import SwiftUI
 
 
 struct PrimeModal: View {
-    @ObservedObject var store: Store<AppState, CounterAction>
+    @ObservedObject var store: Store<AppState, AppAction>
     var body: some View {
         if isPrime(store.value.count) {
             Text("\(store.value.count) is prime! 🎉")
             if store.value.favorites.contains(store.value.count) {
                 Button {
-                    store.value.favorites.removeAll(where: { $0 == store.value.count})
+                    store.send(.primeModal(.removeFavoritePrimeTapped))
                 } label: {
                     Text("Remove favorite prims")
                 }
             } else {
                 Button {
-                    store.value.favorites.append(store.value.count)
+                    store.send(.primeModal(.saveFavoritePrimeTapped))
                 } label: {
                     Text("Save to favorites")
                 }
@@ -46,6 +46,6 @@ struct PrimeModal: View {
 
 struct PrimeModal_Previews: PreviewProvider {
     static var previews: some View {
-        PrimeModal(store: .init(initialValue: AppState(), reducer: counterReducer))
+        PrimeModal(store: .init(initialValue: AppState(), reducer: appReducer))
     }
 }

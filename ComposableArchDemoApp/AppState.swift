@@ -32,23 +32,41 @@ struct AppState {
     }
 }
 
-enum CounterAction {
-    case decrCount
-    case incrCount
+enum PrimeModalAction {
+
     case saveFavoritePrimeTapped
     case removeFavoritePrimeTapped
 }
 
-func counterReducer(state: inout AppState, action: CounterAction) {
+enum CounterAction {
+    case decrCount
+    case incrCount
+}
+
+enum FavoritesPrimeActions {
+    case deleteFavoritePrimes(IndexSet)
+}
+
+enum AppAction {
+    case counter(CounterAction)
+    case primeModal(PrimeModalAction)
+    case favoritesList(FavoritesPrimeActions)
+}
+
+func appReducer(state: inout AppState, action: AppAction) {
     switch action {
-    case .decrCount:
+    case .counter(.decrCount):
         state.count -= 1
-    case .incrCount:
+    case .counter(.incrCount):
         state.count += 1
-    case .saveFavoritePrimeTapped:
-        fatalError()
-    case .removeFavoritePrimeTapped:
-        fatalError()
+    case .primeModal(.saveFavoritePrimeTapped):
+        state.favorites.append(state.count)
+    case .primeModal(.removeFavoritePrimeTapped):
+        state.favorites.removeAll(where: { $0 == state.count})
+    case let .favoritesList(.deleteFavoritePrimes(indexSet)):
+        for index in indexSet {
+            state.favorites.remove(at: index)
+        }
     }
 }
 
