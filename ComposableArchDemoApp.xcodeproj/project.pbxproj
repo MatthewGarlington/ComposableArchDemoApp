@@ -21,6 +21,7 @@
 		6B8E769E27EC989D00F84F1B /* FavoritePrimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E769D27EC989D00F84F1B /* FavoritePrimeView.swift */; };
 		6B8E76A027EC98C800F84F1B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E769F27EC98C800F84F1B /* Model.swift */; };
 		6B8E76A427ECA4DE00F84F1B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E76A327ECA4DE00F84F1B /* NetworkManager.swift */; };
+		6B8E76A627ECAFFF00F84F1B /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E76A527ECAFFF00F84F1B /* Reducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		6B8E769D27EC989D00F84F1B /* FavoritePrimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePrimeView.swift; sourceTree = "<group>"; };
 		6B8E769F27EC98C800F84F1B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		6B8E76A327ECA4DE00F84F1B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6B8E76A527ECAFFF00F84F1B /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				6B8E76A227EC9B4F00F84F1B /* Views */,
 				6B8E769727EC97E400F84F1B /* Store.swift */,
 				6B8E769527EC979500F84F1B /* AppState.swift */,
+				6B8E76A527ECAFFF00F84F1B /* Reducer.swift */,
 				6B8E76A327ECA4DE00F84F1B /* NetworkManager.swift */,
 				6B3A7EEE27E622470086A3DF /* Assets.xcassets */,
 				6B3A7EF027E622470086A3DF /* Preview Content */,
@@ -302,6 +305,7 @@
 				6B3A7EEB27E622460086A3DF /* ComposableArchDemoAppApp.swift in Sources */,
 				6B8E769827EC97E400F84F1B /* Store.swift in Sources */,
 				6B8E769A27EC980500F84F1B /* CounterView.swift in Sources */,
+				6B8E76A627ECAFFF00F84F1B /* Reducer.swift in Sources */,
 				6B8E76A027EC98C800F84F1B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
