@@ -12,6 +12,7 @@ struct ComposableArchDemoAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView(store: .init(initialValue: AppState(), reducer: appReducer))
+                .preferredColorScheme(.light)
         }
     }
 }

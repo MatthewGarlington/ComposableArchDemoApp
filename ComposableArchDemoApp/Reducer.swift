@@ -10,7 +10,6 @@ import Foundation
 
 
 enum PrimeModalAction {
-
     case saveFavoritePrimeTapped
     case removeFavoritePrimeTapped
 }
@@ -34,7 +33,6 @@ func counterReducer(state: inout Int, action: AppAction) {
     switch action {
     case .counter(.decrCount):
         state -= 1
-        
     case .counter(.incrCount):
         state += 1
     default: break
