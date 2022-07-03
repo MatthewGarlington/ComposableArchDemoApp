@@ -6,13 +6,28 @@
 //
 
 import SwiftUI
+import Overture
+import ComposableArchitecture
 
 @main
+
+
+
 struct ComposableArchDemoAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(store: .init(initialValue: AppState(), reducer: appReducer))
-                .preferredColorScheme(.light)
+            ContentView(store: Store(
+                initialValue: AppState(),
+                reducer: with(
+                    appReducer,
+                    compose(
+                        logging,
+                        activityFeed
+                    )
+                )
+            )
+            )
+            .preferredColorScheme(.light)
         }
     }
 }
