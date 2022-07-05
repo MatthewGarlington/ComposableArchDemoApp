@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <ComposableArchitecture/ComposableArchitecture.h>
 
 //! Project version number for PrimeModal.
 FOUNDATION_EXPORT double PrimeModalVersionNumber;

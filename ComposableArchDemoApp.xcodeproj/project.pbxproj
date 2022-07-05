@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1E92F32874B009002BD276 /* FavoritePrimeFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 6B1E92F22874B009002BD276 /* FavoritePrimeFramework */; };
+		6B1E92F62874B172002BD276 /* PrimeModalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 6B1E92F52874B172002BD276 /* PrimeModalFramework */; };
 		6B3A7EEB27E622460086A3DF /* ComposableArchDemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3A7EEA27E622460086A3DF /* ComposableArchDemoAppApp.swift */; };
 		6B3A7EED27E622460086A3DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3A7EEC27E622460086A3DF /* ContentView.swift */; };
 		6B3A7EEF27E622470086A3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3A7EEE27E622470086A3DF /* Assets.xcassets */; };
@@ -15,16 +17,10 @@
 		6B3A7F0627E622470086A3DF /* ComposableArchDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3A7F0527E622470086A3DF /* ComposableArchDemoAppUITests.swift */; };
 		6B3A7F0827E622470086A3DF /* ComposableArchDemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3A7F0727E622470086A3DF /* ComposableArchDemoAppUITestsLaunchTests.swift */; };
 		6B8E769627EC979500F84F1B /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E769527EC979500F84F1B /* AppState.swift */; };
-		6B8E769827EC97E400F84F1B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E769727EC97E400F84F1B /* Store.swift */; };
-		6B8E769A27EC980500F84F1B /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E769927EC980500F84F1B /* CounterView.swift */; };
-		6B8E769C27EC983700F84F1B /* PrimeModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E769B27EC983700F84F1B /* PrimeModal.swift */; };
-		6B8E769E27EC989D00F84F1B /* FavoritePrimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E769D27EC989D00F84F1B /* FavoritePrimeView.swift */; };
 		6B8E76A027EC98C800F84F1B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E769F27EC98C800F84F1B /* Model.swift */; };
 		6B8E76A427ECA4DE00F84F1B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E76A327ECA4DE00F84F1B /* NetworkManager.swift */; };
 		6B8E76A627ECAFFF00F84F1B /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E76A527ECAFFF00F84F1B /* Reducer.swift */; };
-		6BD0B1FD2870DBA40072E984 /* FavoritePrimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD0B1FC2870DBA40072E984 /* FavoritePrimes.swift */; };
 		6BD0B1FF2871FFB30072E984 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD0B1FE2871FFB30072E984 /* Counter.swift */; };
-		6BD0B201287200210072E984 /* PrimeModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD0B200287200210072E984 /* PrimeModal.swift */; };
 		6BDBDD59286F5991007B07EB /* Overture in Frameworks */ = {isa = PBXBuildFile; productRef = 6BDBDD58286F5991007B07EB /* Overture */; };
 		6BDBDD632870BB62007B07EB /* Counter.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBDD622870BB62007B07EB /* Counter.docc */; };
 		6BDBDD692870BB62007B07EB /* Counter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDBDD5F2870BB61007B07EB /* Counter.framework */; };
@@ -32,25 +28,15 @@
 		6BDBDD712870BB62007B07EB /* Counter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BDBDD612870BB62007B07EB /* Counter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BDBDD742870BB62007B07EB /* Counter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDBDD5F2870BB61007B07EB /* Counter.framework */; };
 		6BDBDD752870BB62007B07EB /* Counter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDBDD5F2870BB61007B07EB /* Counter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6BDBDD862870BC44007B07EB /* PrimeModal.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBDD852870BC44007B07EB /* PrimeModal.docc */; };
 		6BDBDD8C2870BC44007B07EB /* PrimeModal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDBDD822870BC44007B07EB /* PrimeModal.framework */; };
-		6BDBDD932870BC44007B07EB /* PrimeModalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBDD922870BC44007B07EB /* PrimeModalTests.swift */; };
-		6BDBDD942870BC44007B07EB /* PrimeModal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BDBDD842870BC44007B07EB /* PrimeModal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BDBDD972870BC44007B07EB /* PrimeModal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDBDD822870BC44007B07EB /* PrimeModal.framework */; };
 		6BDBDD982870BC44007B07EB /* PrimeModal.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDBDD822870BC44007B07EB /* PrimeModal.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6BDBDDA82870BC5D007B07EB /* FavoritePrimes.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBDDA72870BC5D007B07EB /* FavoritePrimes.docc */; };
 		6BDBDDAE2870BC5D007B07EB /* FavoritePrimes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDBDDA42870BC5C007B07EB /* FavoritePrimes.framework */; };
-		6BDBDDB52870BC5D007B07EB /* FavoritePrimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBDDB42870BC5D007B07EB /* FavoritePrimesTests.swift */; };
-		6BDBDDB62870BC5D007B07EB /* FavoritePrimes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BDBDDA62870BC5D007B07EB /* FavoritePrimes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BDBDDB92870BC5D007B07EB /* FavoritePrimes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDBDDA42870BC5C007B07EB /* FavoritePrimes.framework */; };
 		6BDBDDBA2870BC5D007B07EB /* FavoritePrimes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDBDDA42870BC5C007B07EB /* FavoritePrimes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6BDBDDCA2870BCB0007B07EB /* ComposableArchitecture.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBDDC92870BCB0007B07EB /* ComposableArchitecture.docc */; };
 		6BDBDDD02870BCB1007B07EB /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDBDDC62870BCB0007B07EB /* ComposableArchitecture.framework */; };
-		6BDBDDD72870BCB1007B07EB /* ComposableArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBDDD62870BCB1007B07EB /* ComposableArchitectureTests.swift */; };
-		6BDBDDD82870BCB1007B07EB /* ComposableArchitecture.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BDBDDC82870BCB0007B07EB /* ComposableArchitecture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BDBDDDB2870BCB1007B07EB /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDBDDC62870BCB0007B07EB /* ComposableArchitecture.framework */; };
 		6BDBDDDC2870BCB1007B07EB /* ComposableArchitecture.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDBDDC62870BCB0007B07EB /* ComposableArchitecture.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6BDBDDE52870BD55007B07EB /* ComposableArchitecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBDDE32870BD4C007B07EB /* ComposableArchitecture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +53,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6B3A7EE627E622460086A3DF;
 			remoteInfo = ComposableArchDemoApp;
+		};
+		6B6069DC2874AA3E00C9553E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B3A7EDF27E622460086A3DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BDBDD812870BC44007B07EB;
+			remoteInfo = PrimeModal;
+		};
+		6B6069DE2874AA5900C9553E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B3A7EDF27E622460086A3DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BDBDDC52870BCB0007B07EB;
+			remoteInfo = ComposableArchitecture;
+		};
+		6B6069E02874AA8E00C9553E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B3A7EDF27E622460086A3DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BDBDDC52870BCB0007B07EB;
+			remoteInfo = ComposableArchitecture;
+		};
+		6B6069E22874AA9400C9553E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B3A7EDF27E622460086A3DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BDBDDC52870BCB0007B07EB;
+			remoteInfo = ComposableArchitecture;
 		};
 		6BDBDD6A2870BB62007B07EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -182,38 +196,24 @@
 		6B3A7F0127E622470086A3DF /* ComposableArchDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComposableArchDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3A7F0527E622470086A3DF /* ComposableArchDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposableArchDemoAppUITests.swift; sourceTree = "<group>"; };
 		6B3A7F0727E622470086A3DF /* ComposableArchDemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposableArchDemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6B6069E42874ADF800C9553E /* PrimeModalFramework */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PrimeModalFramework; path = ../../../Documents/PrimeModalFramework; sourceTree = "<group>"; };
+		6B6069E52874AEC800C9553E /* FavoritePrimeFramework */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FavoritePrimeFramework; path = ../../../Documents/FavoritePrimeFramework; sourceTree = "<group>"; };
 		6B8E769527EC979500F84F1B /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		6B8E769727EC97E400F84F1B /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		6B8E769927EC980500F84F1B /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
-		6B8E769B27EC983700F84F1B /* PrimeModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeModal.swift; sourceTree = "<group>"; };
-		6B8E769D27EC989D00F84F1B /* FavoritePrimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePrimeView.swift; sourceTree = "<group>"; };
 		6B8E769F27EC98C800F84F1B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		6B8E76A327ECA4DE00F84F1B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		6B8E76A527ECAFFF00F84F1B /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
-		6BD0B1FC2870DBA40072E984 /* FavoritePrimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePrimes.swift; sourceTree = "<group>"; };
 		6BD0B1FE2871FFB30072E984 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
-		6BD0B200287200210072E984 /* PrimeModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeModal.swift; sourceTree = "<group>"; };
 		6BDBDD5F2870BB61007B07EB /* Counter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Counter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BDBDD612870BB62007B07EB /* Counter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Counter.h; sourceTree = "<group>"; };
 		6BDBDD622870BB62007B07EB /* Counter.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Counter.docc; sourceTree = "<group>"; };
 		6BDBDD682870BB62007B07EB /* CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BDBDD6F2870BB62007B07EB /* CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterTests.swift; sourceTree = "<group>"; };
 		6BDBDD822870BC44007B07EB /* PrimeModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrimeModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BDBDD842870BC44007B07EB /* PrimeModal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimeModal.h; sourceTree = "<group>"; };
-		6BDBDD852870BC44007B07EB /* PrimeModal.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = PrimeModal.docc; sourceTree = "<group>"; };
 		6BDBDD8B2870BC44007B07EB /* PrimeModalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeModalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BDBDD922870BC44007B07EB /* PrimeModalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeModalTests.swift; sourceTree = "<group>"; };
 		6BDBDDA42870BC5C007B07EB /* FavoritePrimes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FavoritePrimes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BDBDDA62870BC5D007B07EB /* FavoritePrimes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoritePrimes.h; sourceTree = "<group>"; };
-		6BDBDDA72870BC5D007B07EB /* FavoritePrimes.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FavoritePrimes.docc; sourceTree = "<group>"; };
 		6BDBDDAD2870BC5D007B07EB /* FavoritePrimesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoritePrimesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BDBDDB42870BC5D007B07EB /* FavoritePrimesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePrimesTests.swift; sourceTree = "<group>"; };
 		6BDBDDC62870BCB0007B07EB /* ComposableArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComposableArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BDBDDC82870BCB0007B07EB /* ComposableArchitecture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposableArchitecture.h; sourceTree = "<group>"; };
-		6BDBDDC92870BCB0007B07EB /* ComposableArchitecture.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ComposableArchitecture.docc; sourceTree = "<group>"; };
 		6BDBDDCF2870BCB1007B07EB /* ComposableArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComposableArchitectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BDBDDD62870BCB1007B07EB /* ComposableArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposableArchitectureTests.swift; sourceTree = "<group>"; };
-		6BDBDDE32870BD4C007B07EB /* ComposableArchitecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposableArchitecture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +226,8 @@
 				6BDBDDB92870BC5D007B07EB /* FavoritePrimes.framework in Frameworks */,
 				6BDBDD742870BB62007B07EB /* Counter.framework in Frameworks */,
 				6BDBDD972870BC44007B07EB /* PrimeModal.framework in Frameworks */,
+				6B1E92F32874B009002BD276 /* FavoritePrimeFramework in Frameworks */,
+				6B1E92F62874B172002BD276 /* PrimeModalFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,17 +311,13 @@
 		6B3A7EDE27E622460086A3DF = {
 			isa = PBXGroup;
 			children = (
+				6B6069E52874AEC800C9553E /* FavoritePrimeFramework */,
+				6B6069E42874ADF800C9553E /* PrimeModalFramework */,
 				6B3A7EE927E622460086A3DF /* ComposableArchDemoApp */,
 				6B3A7EFA27E622470086A3DF /* ComposableArchDemoAppTests */,
 				6B3A7F0427E622470086A3DF /* ComposableArchDemoAppUITests */,
 				6BDBDD602870BB62007B07EB /* Counter */,
 				6BDBDD6E2870BB62007B07EB /* CounterTests */,
-				6BDBDD832870BC44007B07EB /* PrimeModal */,
-				6BDBDD912870BC44007B07EB /* PrimeModalTests */,
-				6BDBDDA52870BC5D007B07EB /* FavoritePrimes */,
-				6BDBDDB32870BC5D007B07EB /* FavoritePrimesTests */,
-				6BDBDDC72870BCB0007B07EB /* ComposableArchitecture */,
-				6BDBDDD52870BCB1007B07EB /* ComposableArchitectureTests */,
 				6B3A7EE827E622460086A3DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -348,7 +346,6 @@
 				6B3A7EEA27E622460086A3DF /* ComposableArchDemoAppApp.swift */,
 				6B8E76A127EC9B4600F84F1B /* Model */,
 				6B8E76A227EC9B4F00F84F1B /* Views */,
-				6B8E769727EC97E400F84F1B /* Store.swift */,
 				6B8E769527EC979500F84F1B /* AppState.swift */,
 				6B8E76A527ECAFFF00F84F1B /* Reducer.swift */,
 				6B8E76A327ECA4DE00F84F1B /* NetworkManager.swift */,
@@ -395,9 +392,6 @@
 			isa = PBXGroup;
 			children = (
 				6B3A7EEC27E622460086A3DF /* ContentView.swift */,
-				6B8E769927EC980500F84F1B /* CounterView.swift */,
-				6B8E769B27EC983700F84F1B /* PrimeModal.swift */,
-				6B8E769D27EC989D00F84F1B /* FavoritePrimeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -420,60 +414,6 @@
 			path = CounterTests;
 			sourceTree = "<group>";
 		};
-		6BDBDD832870BC44007B07EB /* PrimeModal */ = {
-			isa = PBXGroup;
-			children = (
-				6BDBDD842870BC44007B07EB /* PrimeModal.h */,
-				6BDBDD852870BC44007B07EB /* PrimeModal.docc */,
-				6BD0B200287200210072E984 /* PrimeModal.swift */,
-			);
-			path = PrimeModal;
-			sourceTree = "<group>";
-		};
-		6BDBDD912870BC44007B07EB /* PrimeModalTests */ = {
-			isa = PBXGroup;
-			children = (
-				6BDBDD922870BC44007B07EB /* PrimeModalTests.swift */,
-			);
-			path = PrimeModalTests;
-			sourceTree = "<group>";
-		};
-		6BDBDDA52870BC5D007B07EB /* FavoritePrimes */ = {
-			isa = PBXGroup;
-			children = (
-				6BDBDDA62870BC5D007B07EB /* FavoritePrimes.h */,
-				6BDBDDA72870BC5D007B07EB /* FavoritePrimes.docc */,
-				6BD0B1FC2870DBA40072E984 /* FavoritePrimes.swift */,
-			);
-			path = FavoritePrimes;
-			sourceTree = "<group>";
-		};
-		6BDBDDB32870BC5D007B07EB /* FavoritePrimesTests */ = {
-			isa = PBXGroup;
-			children = (
-				6BDBDDB42870BC5D007B07EB /* FavoritePrimesTests.swift */,
-			);
-			path = FavoritePrimesTests;
-			sourceTree = "<group>";
-		};
-		6BDBDDC72870BCB0007B07EB /* ComposableArchitecture */ = {
-			isa = PBXGroup;
-			children = (
-				6BDBDDE32870BD4C007B07EB /* ComposableArchitecture.swift */,
-				6BDBDDC82870BCB0007B07EB /* ComposableArchitecture.h */,
-				6BDBDDC92870BCB0007B07EB /* ComposableArchitecture.docc */,
-			);
-			path = ComposableArchitecture;
-			sourceTree = "<group>";
-		};
-		6BDBDDD52870BCB1007B07EB /* ComposableArchitectureTests */ = {
-			isa = PBXGroup;
-			children = (
-				6BDBDDD62870BCB1007B07EB /* ComposableArchitectureTests.swift */,
-			);
-			path = ComposableArchitectureTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -489,7 +429,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BDBDD942870BC44007B07EB /* PrimeModal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,7 +436,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BDBDDB62870BC5D007B07EB /* FavoritePrimes.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,7 +443,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BDBDDD82870BCB1007B07EB /* ComposableArchitecture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +469,8 @@
 			name = ComposableArchDemoApp;
 			packageProductDependencies = (
 				6BDBDD58286F5991007B07EB /* Overture */,
+				6B1E92F22874B009002BD276 /* FavoritePrimeFramework */,
+				6B1E92F52874B172002BD276 /* PrimeModalFramework */,
 			);
 			productName = ComposableArchDemoApp;
 			productReference = 6B3A7EE727E622460086A3DF /* ComposableArchDemoApp.app */;
@@ -585,6 +524,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				6B6069DF2874AA5900C9553E /* PBXTargetDependency */,
+				6B6069DD2874AA3E00C9553E /* PBXTargetDependency */,
 			);
 			name = Counter;
 			productName = Counter;
@@ -622,6 +563,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				6B6069E32874AA9400C9553E /* PBXTargetDependency */,
 			);
 			name = PrimeModal;
 			productName = PrimeModal;
@@ -659,6 +601,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				6B6069E12874AA8E00C9553E /* PBXTargetDependency */,
 			);
 			name = FavoritePrimes;
 			productName = FavoritePrimes;
@@ -783,6 +726,8 @@
 			mainGroup = 6B3A7EDE27E622460086A3DF;
 			packageReferences = (
 				6BDBDD57286F5991007B07EB /* XCRemoteSwiftPackageReference "swift-overture" */,
+				6B1E92F12874B009002BD276 /* XCRemoteSwiftPackageReference "FavoritePrimeFramework" */,
+				6B1E92F42874B172002BD276 /* XCRemoteSwiftPackageReference "PrimeModalFramework" */,
 			);
 			productRefGroup = 6B3A7EE827E622460086A3DF /* Products */;
 			projectDirPath = "";
@@ -892,12 +837,8 @@
 			files = (
 				6B8E76A427ECA4DE00F84F1B /* NetworkManager.swift in Sources */,
 				6B8E769627EC979500F84F1B /* AppState.swift in Sources */,
-				6B8E769E27EC989D00F84F1B /* FavoritePrimeView.swift in Sources */,
-				6B8E769C27EC983700F84F1B /* PrimeModal.swift in Sources */,
 				6B3A7EED27E622460086A3DF /* ContentView.swift in Sources */,
 				6B3A7EEB27E622460086A3DF /* ComposableArchDemoAppApp.swift in Sources */,
-				6B8E769827EC97E400F84F1B /* Store.swift in Sources */,
-				6B8E769A27EC980500F84F1B /* CounterView.swift in Sources */,
 				6B8E76A627ECAFFF00F84F1B /* Reducer.swift in Sources */,
 				6B8E76A027EC98C800F84F1B /* Model.swift in Sources */,
 			);
@@ -941,8 +882,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BDBDD862870BC44007B07EB /* PrimeModal.docc in Sources */,
-				6BD0B201287200210072E984 /* PrimeModal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -950,7 +889,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BDBDD932870BC44007B07EB /* PrimeModalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -958,8 +896,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BDBDDA82870BC5D007B07EB /* FavoritePrimes.docc in Sources */,
-				6BD0B1FD2870DBA40072E984 /* FavoritePrimes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -967,7 +903,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BDBDDB52870BC5D007B07EB /* FavoritePrimesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -975,8 +910,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BDBDDCA2870BCB0007B07EB /* ComposableArchitecture.docc in Sources */,
-				6BDBDDE52870BD55007B07EB /* ComposableArchitecture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -984,7 +917,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BDBDDD72870BCB1007B07EB /* ComposableArchitectureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1000,6 +932,26 @@
 			isa = PBXTargetDependency;
 			target = 6B3A7EE627E622460086A3DF /* ComposableArchDemoApp */;
 			targetProxy = 6B3A7F0227E622470086A3DF /* PBXContainerItemProxy */;
+		};
+		6B6069DD2874AA3E00C9553E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BDBDD812870BC44007B07EB /* PrimeModal */;
+			targetProxy = 6B6069DC2874AA3E00C9553E /* PBXContainerItemProxy */;
+		};
+		6B6069DF2874AA5900C9553E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BDBDDC52870BCB0007B07EB /* ComposableArchitecture */;
+			targetProxy = 6B6069DE2874AA5900C9553E /* PBXContainerItemProxy */;
+		};
+		6B6069E12874AA8E00C9553E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BDBDDC52870BCB0007B07EB /* ComposableArchitecture */;
+			targetProxy = 6B6069E02874AA8E00C9553E /* PBXContainerItemProxy */;
+		};
+		6B6069E32874AA9400C9553E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BDBDDC52870BCB0007B07EB /* ComposableArchitecture */;
+			targetProxy = 6B6069E22874AA9400C9553E /* PBXContainerItemProxy */;
 		};
 		6BDBDD6B2870BB62007B07EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1481,7 +1433,6 @@
 		6BDBDD9D2870BC44007B07EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SMT4VV2UY9;
@@ -1500,7 +1451,6 @@
 		6BDBDD9E2870BC44007B07EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SMT4VV2UY9;
@@ -1581,7 +1531,6 @@
 		6BDBDDBF2870BC5D007B07EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SMT4VV2UY9;
@@ -1600,7 +1549,6 @@
 		6BDBDDC02870BC5D007B07EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SMT4VV2UY9;
@@ -1681,7 +1629,6 @@
 		6BDBDDE12870BCB1007B07EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SMT4VV2UY9;
@@ -1700,7 +1647,6 @@
 		6BDBDDE22870BCB1007B07EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SMT4VV2UY9;
@@ -1830,6 +1776,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		6B1E92F12874B009002BD276 /* XCRemoteSwiftPackageReference "FavoritePrimeFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MatthewGarlington/FavoritePrimeFramework.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		6B1E92F42874B172002BD276 /* XCRemoteSwiftPackageReference "PrimeModalFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MatthewGarlington/PrimeModalFramework.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		6BDBDD57286F5991007B07EB /* XCRemoteSwiftPackageReference "swift-overture" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-overture.git";
@@ -1841,6 +1803,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		6B1E92F22874B009002BD276 /* FavoritePrimeFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B1E92F12874B009002BD276 /* XCRemoteSwiftPackageReference "FavoritePrimeFramework" */;
+			productName = FavoritePrimeFramework;
+		};
+		6B1E92F52874B172002BD276 /* PrimeModalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B1E92F42874B172002BD276 /* XCRemoteSwiftPackageReference "PrimeModalFramework" */;
+			productName = PrimeModalFramework;
+		};
 		6BDBDD58286F5991007B07EB /* Overture */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 6BDBDD57286F5991007B07EB /* XCRemoteSwiftPackageReference "swift-overture" */;

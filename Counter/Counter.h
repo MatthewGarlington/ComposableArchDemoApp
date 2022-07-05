@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <PrimeModal/PrimeModal.h> 
 
 //! Project version number for Counter.
 FOUNDATION_EXPORT double CounterVersionNumber;
